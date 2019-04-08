@@ -9,7 +9,7 @@ Finally, we conclude by investigating how responsive U.S. equities have been to 
 This project was created in the writing of an academic thesis, so the organizational structure and documentation may be lacking. Follow these directions to get started:
 
 1. data.py
-  * Set filepath to your data csv -- this csv should have the same form as in the first figure of section 2.4.1 in the accompanying 'thesis.pdf'
+    * Set filepath to your data csv -- this csv should have the same form as in the first figure of section 2.4.1 in the accompanying 'thesis.pdf'
   * Set savepath to where you want the output (e.g. '/csv') -- the output will be in csv form, and will look like the second figure in section 2.4.1
   * Run the main(bool) function, which takes a boolean argument to determine whether you want to save a csv (I recommend setting it to False while testing)
   * **IMPORTANT:** change 'RET' in line 33 to 'PRC' and repeat the above procedure to generate a matrix of returns; make sure to rename the output (line 55) to something like 'returns_out.csv'
