@@ -9,10 +9,10 @@ Finally, we conclude by investigating how responsive U.S. equities have been to 
 This project was created in the writing of an academic thesis, so the organizational structure and documentation may be lacking. Follow these directions to get started:
 
 1. data.py
-  * Set filepath to your data csv -- this csv should have the same form as in the first figure of section 2.4.1 in the accompanying 'paper.pdf'
+  * Set filepath to your data csv -- this csv should have the same form as in the first figure of section 2.4.1 in the accompanying 'thesis.pdf'
   * Set savepath to where you want the output (e.g. '/csv') -- the output will be in csv form, and will look like the second figure in section 2.4.1
   * Run the main(bool) function, which takes a boolean argument to determine whether you want to save a csv (I recommend setting it to False while testing)
-  * **IMPORTANT:** change 'RET' in line 33 to 'PRC' and repeat the above procedure to generate a matrix of returns
+  * **IMPORTANT:** change 'RET' in line 33 to 'PRC' and repeat the above procedure to generate a matrix of returns; make sure to rename the output (line 55) to something like 'returns_out.csv'
 2. techs.py
   * Set projectpath to your root and filepath to the prices csv generated in step 1
   * Run the main(a, b, c) function, which takes integer window lengths a, b, and c as arguments (these windows will be applied to the Moving Average and Rolling Min/Max indicators)
@@ -26,7 +26,7 @@ This project was created in the writing of an academic thesis, so the organizati
   * Set projectpath to the same as in the previous step; set containerpath to the pickle file that was generated in step 4
   * Run the stats_tests() function to perform the included HOV tests on each security (Brown-Forsythe, Bartlett, Levene, and Fligner-Killeen)
   * Run the adjust_p() function to adjust p-values for multiple sampling
-  * The remaining functions (starting on line 164) generate the visualizations seen in the accompanying 'paper.pdf'
+  * The remaining functions (starting on line 164) generate the visualizations seen in the accompanying 'thesis.pdf'
 7. tables.py
   * Set projectpath and containerpath to the same as in the previous step; set returns_out to the matrix of returns generated in step 1
-  * All functions from line 22 through line 185 generate the tables seen in the accompanying 'paper.pdf'
+  * All functions from line 22 through line 185 generate the tables seen in the accompanying 'thesis.pdf'
