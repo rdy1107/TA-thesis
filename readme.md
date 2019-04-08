@@ -1,3 +1,11 @@
+# Abstract
+In the following paper we will examine the effect of technical support and resistence levels on one-day U.S.
+equity returns. Moving averages and local minima/maxima of varying windows will be studied, as well as
+round numbers. Ultimately, we find that when an asset price closes arbitrarily near these technical indicators, its range of ensuing one-day returns changes in significant ways. The most notable observation was
+that moving averages (and to a lesser extent, round numbers) reduce volatility, sometimes substantially.
+Finally, we conclude by investigating how responsive U.S. equities have been to the studied technical indicators over time, finding that while the overall trend is positive, it has weakened since the Great Recession.
+
+# Instructions
 This project was created in the writing of an academic thesis, so the organizational structure and documentation may be lacking. Follow these directions to get started:
 
 1. data.py
